@@ -5,6 +5,46 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colori base app -->
+    <color name="primary">#2196F3</color>               <!-- Blu principale -->
+    <color name="primary_dark">#1976D2</color>          <!-- Blu scuro per status bar -->
+    <color name="primary_light">#BBDEFB</color>         <!-- Blu chiaro per elementi secondari -->
+    <color name="accent">#FF4081
+    </color>                <!-- Rosa accent per elementi interattivi -->
+
+    <!-- Colori neutrali -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+
+    <!-- Colori di stato -->
+    <color name="success">#4CAF50</color>               <!-- Verde per successo -->
+    <color name="error">#F44336</color>                 <!-- Rosso per errori -->
+    <color name="warning">#FFC107</color>               <!-- Giallo per warning -->
+    <color name="info">#2196F3</color>                  <!-- Blu per info -->
+
+    <!-- Colori specifici per punteggi -->
+    <color name="score_high">#4CAF50</color>            <!-- Verde per punteggi alti -->
+    <color name="score_medium">#FFC107</color>          <!-- Giallo per punteggi medi -->
+    <color name="score_low">#F44336</color>             <!-- Rosso per punteggi bassi -->
+
+    <!-- Colori background -->
+    <color name="background">#FAFAFA</color>            <!-- Sfondo principale -->
+    <color name="surface">#FFFFFF</color>               <!-- Sfondo cards/elementi -->
+    <color name="background_dark">#F5F5F5</color>       <!-- Sfondo scuro alternativo -->
+
+    <!-- Colori testo -->
+    <color name="text_primary">#212121</color>          <!-- Testo principale -->
+    <color name="text_secondary">#757575</color>        <!-- Testo secondario -->
+    <color name="text_disabled">#9E9E9E</color>         <!-- Testo disabilitato -->
+    <color name="text_white">#FFFFFF</color>            <!-- Testo bianco -->
+
+    <!-- Colori divisori e bordi -->
+    <color name="divider">#BDBDBD</color>               <!-- Linee divisorie -->
+    <color name="border">#E0E0E0</color>                <!-- Bordi elementi -->
+
+
 </resources>
