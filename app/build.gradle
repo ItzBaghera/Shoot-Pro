@@ -8,7 +8,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.shootpro"
+        applicationId 'com.shootpro'
         minSdk 33
         targetSdk 34
         versionCode 1
@@ -32,6 +32,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        dataBinding true
     }
 }
 
@@ -42,6 +43,8 @@ dependencies {
     implementation libs.androidx.camera.view.v123
     implementation libs.text.recognition
     implementation libs.androidx.core.ktx
+    implementation libs.androidx.navigation.fragment.ktx.v276
+    implementation libs.androidx.navigation.ui.ktx.v276
     implementation libs.androidx.appcompat
     implementation libs.material
     implementation libs.androidx.constraintlayout

@@ -1,67 +1,31 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme -->
-    <style name="Theme.ShootPro" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Colori primari -->
+    <style name="Theme.ShootPro" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
 
-        <!-- Colori secondari -->
+        <!-- Secondary colors -->
         <item name="colorSecondary">@color/accent</item>
         <item name="colorSecondaryVariant">@color/accent</item>
         <item name="colorOnSecondary">@color/white</item>
 
-        <!-- Status bar e UI di sistema -->
+        <!-- System UI -->
         <item name="android:statusBarColor">@color/primary_dark</item>
         <item name="android:navigationBarColor">@color/primary_dark</item>
 
-        <!-- Font e testo -->
-        <item name="android:textViewStyle">@style/TextViewStyle</item>
-        <item name="buttonStyle">@style/ButtonStyle</item>
-
-        <!-- Card e superfici -->
-        <item name="materialCardViewStyle">@style/CardViewStyle</item>
+        <!-- Window background -->
         <item name="android:windowBackground">@color/background</item>
-    </style>
 
-    <!-- Tema senza ActionBar per splash screen e schermate full screen -->
-    <style name="Theme.ShootPro.NoActionBar">
+        <!-- Disable default ActionBar -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@color/background</item>
     </style>
 
-    <!-- Stile per AppBar -->
-    <style name="Theme.ShootPro.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:background">@color/primary</item>
-        <item name="elevation">4dp</item>
-    </style>
+    <!-- AppBar Overlay -->
+    <style name="Theme.ShootPro.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
 
-    <!-- Stile per Popup/Dialog -->
-    <style name="Theme.ShootPro.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:background">@color/surface</item>
-        <item name="android:textColor">@color/text_primary</item>
-    </style>
-
-    <!-- Stile base per TextView -->
-    <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
-        <item name="android:textColor">@color/text_primary</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-    <!-- Stile base per Button -->
-    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:padding">16dp</item>
-    </style>
-
-    <!-- Stile per CardView -->
-    <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
-        <item name="cardElevation">2dp</item>
-        <item name="cardCornerRadius">8dp</item>
-        <item name="cardBackgroundColor">@color/surface</item>
-        <item name="contentPadding">16dp</item>
-    </style>
+    <!-- Popup Overlay -->
+    <style name="Theme.ShootPro.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
 </resources>
