@@ -39,8 +39,6 @@ android {
 dependencies {
     implementation libs.androidx.camera.core
     implementation libs.androidx.camera.camera2
-    implementation libs.androidx.camera.lifecycle.v123
-    implementation libs.androidx.camera.view.v123
     implementation libs.text.recognition
     implementation libs.androidx.core.ktx
     implementation libs.androidx.navigation.fragment.ktx.v276
@@ -52,7 +50,6 @@ dependencies {
     implementation libs.androidx.lifecycle.viewmodel.ktx
     implementation libs.androidx.navigation.fragment.ktx
     implementation libs.androidx.navigation.ui.ktx
-    implementation libs.androidx.camera.core
     implementation libs.androidx.camera.lifecycle
     implementation libs.androidx.camera.view
     testImplementation libs.junit

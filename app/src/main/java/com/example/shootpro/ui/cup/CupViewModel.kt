@@ -1,13 +1,13 @@
-package com.example.shootpro.ui.slideshow
+package com.example.shootpro.ui.cup
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class CupViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is statistic Fragment"
+        value = "This is cup Fragment"
     }
     val text: LiveData<String> = _text
 }
